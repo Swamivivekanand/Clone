@@ -1,7 +1,4 @@
 <?php include "header.php" ?>
-
-
-
 <div class="spacer"></div>	
 <section>
      <div class="contact-banner">
