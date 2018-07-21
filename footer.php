@@ -38,13 +38,16 @@
 					  
 
 								 	<input type="submit" value="Register" id="register">
-							   </form>
-					  		</div>
-					  		<div class="modal-footer">
-								<button type="button" class="btn btn-info btn-right"          data-dismiss="modal">
+								 	<button type="button" class="btn modal_close_btn btn-right" data-dismiss="modal">
 									Close
 								</button>
-							</div>
+							   </form>
+					  		</div>
+					  		<!-- <div class="modal-footer">
+								<button type="button" class="btn btn-info btn-right" data-dismiss="modal">
+									Close
+								</button>
+							</div> -->
 						</div>
 					</div>
 			  	</div>

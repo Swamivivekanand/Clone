@@ -222,7 +222,7 @@
    		</div>
    	</div>
    </div>
-   <?php  //include_once 'inc/enquiry-form.php'; ?>
+   <?php  include_once 'inc/enquiry-form.php'; ?>
    <?php include_once "inc/get_information.php" ?>	
 
 

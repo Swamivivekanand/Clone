@@ -5,26 +5,29 @@
      				<h4>Enquiry Form</h4>
       				<div class="input--with-icon">
      					<i class="fa fa-user"></i>
-      					<input type="text" placeholder="Name">
+      					<input type="text" placeholder="Name" class="name-enquiry" >
    					</div>
 
     
  						<div class="input--with-icon">
  	 						<i class="fa fa-book"></i>
- 	  						<input type="text" placeholder="Subject">
+ 	  						<input type="text" placeholder="Subject" class="subject-enquiry" >
  						</div>
 
  						<div class="input--with-icon">
     						<i class="fa fa-location-arrow"></i>
-     						<input type="text" placeholder="Location">
+     						<input type="text" placeholder="Location" class="location-enquiry" >
   					    </div>
     
  
  						<div class="input--with-icon">
   							<i class="fa fa-phone"></i>
-   							<input type="text" placeholder="Contact Number">
+   							<input type="text" placeholder="Contact Number" class="phone-enquiry">
  						</div>
- 						<button type="submit" class="btn">Get Free Demo</button>
+ 						<!-- <button type="submit" class="btn">Get Free Demo</button> -->
+                        <div class="enquiry-submit ">
+                            <input type="submit" name="" value="Get Free Demo" id="enquiry_form_submit">
+                        </div>
  					</form>
  					<div class="enquiry-form-close">
  						<i class="fa fa-times"></i>
@@ -33,3 +36,36 @@
  				</div>
    			</div>
 		</div>
+       <script src="jquery-3.3.1.min.js">
+            $(".enquiry-submit").click(function () 
+       {
+            
+            var name_enquiry = $(".name-enquiry").val();
+            console.log(name_enquiry);
+            var subject_enquiry = $(".subject-enquiry").val();
+            var location_enquiry=$(".location-enquiry").val();
+            var phone_enquiry=$(".phone-enquiry").val();
+           
+            if(name_enquiry.val()=='' && name_enquiry.val() == null)
+            {
+                 $('#enquiry_form_submit').attr('disabled',true);
+            }
+             else if(subject_enquiry.val()=='' && subject_enquiry.val()==null)
+             {
+                 $('#enquiry_form_submit').attr('disabled',true);
+             }
+             else if(location_enquiry.val()=='' && location_enquiry.val() == null)
+             {
+                 $('#enquiry_form_submit').attr('disabled',true);
+             }
+             else if(phone_enquiry.val()=='' && phone_enquiry.val()==null)
+             {
+                $('#enquiry_form_submit').attr('disabled',true);
+             }
+             else
+             {
+
+              $('#enquiry_form_submit').attr('disabled',false);
+             }
+        });
+       </script>

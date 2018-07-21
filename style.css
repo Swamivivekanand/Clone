@@ -567,8 +567,24 @@ section.about p
 
 	.model
 	{
-		background: #130f40;
+		background: #86b0b4;
 	}
+	.modal_close_btn
+	{
+	background-color: #4c74af;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 29%;
+    margin: 15px auto 0 auto;
+	}
+	.home-tutor-modal form h6
+{
+	margin-bottom: -10px;
+	color: black;
+}
 	input[type=text],
 input[type=password],
 input[type=tel]
@@ -1891,7 +1907,8 @@ height: 200px;
     color: #fff;
     display: none;
 	}
-	.tooltip_text:after {
+	.tooltip_text:after 
+	{
 	  right: 100%;
 	  top: 50%;
 	  border: solid transparent;
@@ -1905,7 +1922,30 @@ height: 200px;
 	  border-width: 8px;
 	  margin-top: -8px;
 	}
+	.home-tutor-modal
+	{
+		width: 400px;
+		padding: 15px;
+	}
+.home-tutor-modal form input[type=text],
+input[type=tel]
+{
+		border: 3px solid #fff;
+		/*border-radius: 30px;*/
+		border-radius: 0px;
+		padding: 15px 20px ;
+		width: 90% ;
+		height:20px ;
+		margin: 15px auto 0px auto ;
+		box-sizing: border-box ;
+
+
 }
+.home-tutor-modal form h6
+{
+	margin-top: 5px;
+}
+
 
 
 
