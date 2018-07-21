@@ -13,7 +13,7 @@
 		<div class="row">
 			<div class="col-md-12 text-right ">
 			  <div class="modal fade" id="myModal" role="dialog">
-					<div class="modal-dialog">
+					<div class="modal-dialog home-tutor-modal">
 				  		<div class="modal-content">
 					  		<div class="modal-header">
 								<button type="button" class="close" data-dismiss="modal"></button>
