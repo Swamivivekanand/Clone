@@ -1,4 +1,5 @@
 <?php include "header.php" ?>
+
 <?php 
 
 $success_message="";
@@ -105,11 +106,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
        
         
         include_once('connection.php');
+        // print_r("hello");
+        // exit();
          
        
 
 
-        $sql="SELECT email from `test` where email='$email'";
+        $sql="SELECT email from `clone` where email='$email'";
 
 
          
@@ -126,7 +129,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
         {     $salt = uniqid(mt_rand(), true);
               $md5=md5($salt.$pass);
               
-              $sql="INSERT INTO test (name,password,contact_no,email,salt,categories)
+              $sql="INSERT INTO clone (name,password,contact_no,email,salt,categories)
               values('$fname','$md5','$phone','$email','$salt','$categories')";
               
               
@@ -135,7 +138,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
               {
                  
                
-                // $success_message="Account created succesfully";
+                //$success_message="Account created succesfully";
                 header('Location:home.php');
                 $fname="";
                 $email="";
@@ -168,6 +171,7 @@ function test_input($data)
 }
 
 ?>
+<div class="spacer"></div>
 <section class="register-section">
 
     <div class="register-page-body"></div>

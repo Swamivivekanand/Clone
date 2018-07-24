@@ -231,191 +231,193 @@ $(document).ready(function($)
 		console.log('hello');
 	}
 		
-	$(".get_start_btn").click(function()
-	{
-		$(".get_info_intro").hide();
-		$(".get_start_btn").hide();
-		$(".get_info_student_1").show();
-		$(".next-modal").show();
-		$(".back-modal").show();
-	});
-	$(".back-modal").click(function()
-	{
-		$(".get_info_student_1").hide();
-		$(".next-modal").hide();
-		$(".back-modal").hide();
-		$(".get_info_intro").show();
-		$(".get_start_btn").show();
+	// $(".get_start_btn").click(function()
+	// {
+	// 	$(".get_info_intro").hide();
+	// 	$(".get_start_btn").hide();
+	// 	$(".get_info_student_1").show();
+	// 	$(".next-modal").show();
+	// 	$(".back-modal").show();
+	// });
+	// $(".back-modal").click(function()
+	// {
+	// 	$(".get_info_student_1").hide();
+	// 	$(".next-modal").hide();
+	// 	$(".back-modal").hide();
+	// 	$(".get_info_intro").show();
+	// 	$(".get_start_btn").show();
 
 
-	});
-	$(".next-modal").click(function()
-	{
-		$(".get_info_intro").hide();
-		$(".get_start_btn").hide();
-		$(".get_info_student_1").hide();
-		$(".next-modal").hide();
-		$(".back-modal").hide();
-		$(".get_info_student_2").show();
-		$(".next-modal1").show();
-		$(".back-modal1").show();
-	});
+	// });
+	// $(".next-modal").click(function()
+	// {
+	// 	$(".get_info_intro").hide();
+	// 	$(".get_start_btn").hide();
+	// 	$(".get_info_student_1").hide();
+	// 	$(".next-modal").hide();
+	// 	$(".back-modal").hide();
+	// 	$(".get_info_student_2").show();
+	// 	$(".next-modal1").show();
+	// 	$(".back-modal1").show();
+	// });
 
-	$(".back-modal1").click(function()
-	{   
-		$(".get_info_intro").hide();
-		$(".get_start_btn").hide();
-		$(".get_info_student_2").hide();
-		$(".next-modal1").hide();
-		$(".back-modal1").hide();
-		$(".next-modal2").show();
-		$(".get_info_student_1").show();
-		$(".next-modal").show();
-		$(".back-modal").show();
-	});
+	// $(".back-modal1").click(function()
+	// {   
+	// 	$(".get_info_intro").hide();
+	// 	$(".get_start_btn").hide();
+	// 	$(".get_info_student_2").hide();
+	// 	$(".next-modal1").hide();
+	// 	$(".back-modal1").hide();
+	// 	$(".next-modal2").show();
+	// 	$(".get_info_student_1").show();
+	// 	$(".next-modal").show();
+	// 	$(".back-modal").show();
+	// });
 
-	$(".next-modal1").click(function()
-	{
-		$(".get_info_intro").hide();
-		$(".get_start_btn").hide();
-		$(".get_info_student_1").hide();
-		$(".next-modal").hide();
-		$(".get_info_student_2").hide();
-		$(".next-modal1").hide();
-		$(".back-modal1").hide();
-		$(".get_info_student_3").show();
-		$(".next-modal2").show();
-		$(".back-modal2").show();
-	});
-	$(".back-modal2").click(function()
-	{
-		$(".get_info_student_3").hide();
-		$(".next-modal2").hide();
-		$(".back-modal2").hide();
-		$(".get_info_student_2").show();
-		$(".next-modal1").show();
-		$(".back-modal1").show();
+	// $(".next-modal1").click(function()
+	// {
+	// 	$(".get_info_intro").hide();
+	// 	$(".get_start_btn").hide();
+	// 	$(".get_info_student_1").hide();
+	// 	$(".next-modal").hide();
+	// 	$(".get_info_student_2").hide();
+	// 	$(".next-modal1").hide();
+	// 	$(".back-modal1").hide();
+	// 	$(".get_info_student_3").show();
+	// 	$(".next-modal2").show();
+	// 	$(".back-modal2").show();
+	// });
+	// $(".back-modal2").click(function()
+	// {
+	// 	$(".get_info_student_3").hide();
+	// 	$(".next-modal2").hide();
+	// 	$(".back-modal2").hide();
+	// 	$(".get_info_student_2").show();
+	// 	$(".next-modal1").show();
+	// 	$(".back-modal1").show();
 
-	});
-	$(".next-modal2").click(function()
-	{
-		$(".get_info_intro").hide();
-		$(".get_start_btn").hide();
-		$(".get_info_student_1").hide();
-		$(".next-modal").hide();
-		$(".get_info_student_2").hide();
-		$(".next-modal1").hide();
-		$(".get_info_student_3").hide();
-		$(".next-modal2").hide();
-		$(".get_info_student_4").show();
-		$(".next-modal3").show();
-		$(".back-modal3").show();
-	});
-	$(".back-modal3").click(function()
-	{
-		$(".get_info_student_4").hide();
-		$(".next-modal3").hide();
-		$(".back-modal2").hide();
-		$(".next-modal2").show();
-		$(".back-modal2").show();
-		$(".get_info_student_3").show();
-	});
-	$(".next-modal3").click(function()
-	{
-		$(".get_info_intro").hide();
-		$(".get_start_btn").hide();
-		$(".get_info_student_1").hide();
-		$(".next-modal").hide();
-		$(".get_info_student_2").hide();
-		$(".next-modal1").hide();
-		$(".get_info_student_3").hide();
-		$(".next-modal2").hide();
-		$(".get_info_student_4").hide();
-		$(".next-modal3").hide();
-		$(".get_info_student_5").show();
-		$(".next-modal4").show();
-	});
-	$(".next-modal4").click(function()
-	{
-		$(".get_info_intro").hide();
-		$(".get_start_btn").hide();
-		$(".get_info_student_1").hide();
-		$(".next-modal").hide();
-		$(".get_info_student_2").hide();
-		$(".next-modal1").hide();
-		$(".get_info_student_3").hide();
-		$(".next-modal2").hide();
-		$(".get_info_student_4").hide();
-		$(".next-modal3").hide();
-		$(".get_info_student_5").hide();
-		$(".next-modal4").hide();
-		$(".get_info_student_6").show();
-		$(".next-modal5").show();
-	});
-	$(".next-modal5").click(function()
-	{
-		$(".get_info_intro").hide();
-		$(".get_start_btn").hide();
-		$(".get_info_student_1").hide();
-		$(".next-modal").hide();
-		$(".get_info_student_2").hide();
-		$(".next-modal1").hide();
-		$(".get_info_student_3").hide();
-		$(".next-modal2").hide();
-		$(".get_info_student_4").hide();
-		$(".next-modal3").hide();
-		$(".get_info_student_5").hide();
-		$(".next-modal4").hide();
-		$(".get_info_student_6").hide();
-		$(".next-modal5").hide();
-		$(".get_info_student_7").show();
-		$(".next-modal6").show();
-	});
+	// });
+	// $(".next-modal2").click(function()
+	// {
+	// 	$(".get_info_intro").hide();
+	// 	$(".get_start_btn").hide();
+	// 	$(".get_info_student_1").hide();
+	// 	$(".next-modal").hide();
+	// 	$(".get_info_student_2").hide();
+	// 	$(".next-modal1").hide();
+	// 	$(".get_info_student_3").hide();
+	// 	$(".next-modal2").hide();
+	// 	$(".get_info_student_4").show();
+	// 	$(".next-modal3").show();
+	// 	$(".back-modal3").show();
+	// });
+	// $(".back-modal3").click(function()
+	// {
+	// 	$(".get_info_student_4").hide();
+	// 	$(".next-modal3").hide();
+	// 	$(".back-modal2").hide();
+	// 	$(".next-modal2").show();
+	// 	$(".back-modal2").show();
+	// 	$(".get_info_student_3").show();
+	// });
+	// $(".next-modal3").click(function()
+	// {
+	// 	$(".get_info_intro").hide();
+	// 	$(".get_start_btn").hide();
+	// 	$(".get_info_student_1").hide();
+	// 	$(".next-modal").hide();
+	// 	$(".get_info_student_2").hide();
+	// 	$(".next-modal1").hide();
+	// 	$(".get_info_student_3").hide();
+	// 	$(".next-modal2").hide();
+	// 	$(".get_info_student_4").hide();
+	// 	$(".next-modal3").hide();
+	// 	$(".get_info_student_5").show();
+	// 	$(".next-modal4").show();
+	// });
+	// $(".next-modal4").click(function()
+	// {
+	// 	$(".get_info_intro").hide();
+	// 	$(".get_start_btn").hide();
+	// 	$(".get_info_student_1").hide();
+	// 	$(".next-modal").hide();
+	// 	$(".get_info_student_2").hide();
+	// 	$(".next-modal1").hide();
+	// 	$(".get_info_student_3").hide();
+	// 	$(".next-modal2").hide();
+	// 	$(".get_info_student_4").hide();
+	// 	$(".next-modal3").hide();
+	// 	$(".get_info_student_5").hide();
+	// 	$(".next-modal4").hide();
+	// 	$(".get_info_student_6").show();
+	// 	$(".next-modal5").show();
+	// });
+	// $(".next-modal5").click(function()
+	// {
+	// 	$(".get_info_intro").hide();
+	// 	$(".get_start_btn").hide();
+	// 	$(".get_info_student_1").hide();
+	// 	$(".next-modal").hide();
+	// 	$(".get_info_student_2").hide();
+	// 	$(".next-modal1").hide();
+	// 	$(".get_info_student_3").hide();
+	// 	$(".next-modal2").hide();
+	// 	$(".get_info_student_4").hide();
+	// 	$(".next-modal3").hide();
+	// 	$(".get_info_student_5").hide();
+	// 	$(".next-modal4").hide();
+	// 	$(".get_info_student_6").hide();
+	// 	$(".next-modal5").hide();
+	// 	$(".get_info_student_7").show();
+	// 	$(".next-modal6").show();
+	// });
 
-	$(".next-modal6").click(function()
-	{
-		$(".get_info_intro").hide();
-		$(".get_start_btn").hide();
-		$(".get_info_student_1").hide();
-		$(".next-modal").hide();
-		$(".get_info_student_2").hide();
-		$(".next-modal1").hide();
-		$(".get_info_student_3").hide();
-		$(".next-modal2").hide();
-		$(".get_info_student_4").hide();
-		$(".next-modal3").hide();
-		$(".get_info_student_5").hide();
-		$(".next-modal4").hide();
-		$(".get_info_student_6").hide();
-		$(".next-modal5").hide();
-		$(".get_info_student_7").hide();
-		$(".next-modal6").hide();
-		$(".get_info_student_8").show();
-		$(".next-modal7").show();
-	});
-	$(".next-modal7").click(function()
-	{
-		$(".get_info_intro").hide();
-		$(".get_start_btn").hide();
-		$(".get_info_student_1").hide();
-		$(".next-modal").hide();
-		$(".get_info_student_2").hide();
-		$(".next-modal1").hide();
-		$(".get_info_student_3").hide();
-		$(".next-modal2").hide();
-		$(".get_info_student_4").hide();
-		$(".next-modal3").hide();
-		$(".get_info_student_5").hide();
-		$(".next-modal4").hide();
-		$(".get_info_student_6").hide();
-		$(".next-modal5").hide();
-		$(".get_info_student_7").hide();
-		$(".next-modal6").hide();
-		$(".get_info_student_8").hide();
-		$(".next-modal7").hide();
-		$(".get_info_student_9").show();
-		$(".next-modal8").show();
-	});
+	// $(".next-modal6").click(function()
+	// {
+	// 	$(".get_info_intro").hide();
+	// 	$(".get_start_btn").hide();
+	// 	$(".get_info_student_1").hide();
+	// 	$(".next-modal").hide();
+	// 	$(".get_info_student_2").hide();
+	// 	$(".next-modal1").hide();
+	// 	$(".get_info_student_3").hide();
+	// 	$(".next-modal2").hide();
+	// 	$(".get_info_student_4").hide();
+	// 	$(".next-modal3").hide();
+	// 	$(".get_info_student_5").hide();
+	// 	$(".next-modal4").hide();
+	// 	$(".get_info_student_6").hide();
+	// 	$(".next-modal5").hide();
+	// 	$(".get_info_student_7").hide();
+	// 	$(".next-modal6").hide();
+	// 	$(".get_info_student_8").show();
+	// 	$(".next-modal7").show();
+	// });
+	// $(".next-modal7").click(function()
+	// {
+	// 	$(".get_info_intro").hide();
+	// 	$(".get_start_btn").hide();
+	// 	$(".get_info_student_1").hide();
+	// 	$(".next-modal").hide();
+	// 	$(".get_info_student_2").hide();
+	// 	$(".next-modal1").hide();
+	// 	$(".get_info_student_3").hide();
+	// 	$(".next-modal2").hide();
+	// 	$(".get_info_student_4").hide();
+	// 	$(".next-modal3").hide();
+	// 	$(".get_info_student_5").hide();
+	// 	$(".next-modal4").hide();
+	// 	$(".get_info_student_6").hide();
+	// 	$(".next-modal5").hide();
+	// 	$(".get_info_student_7").hide();
+	// 	$(".next-modal6").hide();
+	// 	$(".get_info_student_8").hide();
+	// 	$(".next-modal7").hide();
+	// 	$(".get_info_student_9").show();
+	// 	$(".next-modal8").show();
+	// });
+
+	$()
 	// $('.form-name').keypress(function(e)
 
 	// {
@@ -471,11 +473,11 @@ $(document).ready(function($)
 				$(this).removeClass("invalid");
 				$(this).addClass("valid");
 			}
-			// else
-			// {
-			// 	$(this).removeClass("valid");
-			// 	$(this).addClass("invalid");
-			// }
+			else
+			{
+				$(this).removeClass("valid");
+				$(this).addClass("invalid");
+			}
 
 		}
 		else
@@ -503,6 +505,7 @@ $(document).ready(function($)
             return false;
   		}
   	});
+	  var counter=0;
 	  $(".form-password").on("blur",function()
 	  {
 	  	// $(".tooltip_text").show();
@@ -513,11 +516,13 @@ $(document).ready(function($)
 	  	{
 	  		$(this).removeClass("invalid");
 	  		$(this).addClass("valid");
+
 	  	}
 	  	else
 	  	{
 	  		$(this).removeClass("valid");
 	  		$(this).addClass("invalid");
+	  		counter=1;
 	  	}
 	  });
 	 $(".form-password").focus(function()
@@ -530,6 +535,7 @@ $(document).ready(function($)
 	  $(".form-confrmpass").on("blur",function()
 	  {
 	  	 var password = $(".form-password").val();
+	  	 console.log(counter);
             var confirmPassword = $(".form-confrmpass").val();
             if (password != confirmPassword) 
             {
@@ -538,6 +544,13 @@ $(document).ready(function($)
                  $('#register_form_submit').attr('disabled',true);
                 
             }
+      //       else if(counter=1)
+      //       {
+
+      //       	$(this).removeClass("valid");
+	  			// $(this).addClass("invalid");
+      //            $('#register_form_submit').attr('disabled',true);
+      //       }
             else
             {
             	$(this).removeClass("invalid");
@@ -579,6 +592,156 @@ $(document).ready(function($)
               $('#register_form_submit').attr('disabled',false);
        		 }
         });
+	   
+	    $(".enquiry-submit").click(function() 
+	   {
+	   		
+	   	 	var name_enquiry = $(".name-enquiry");
+
+	   	 	var subject_enquiry = $(".subject-enquiry");
+            var location_enquiry=$(".location-enquiry");
+            var phone_enquiry=$(".phone-enquiry");
+           console.log(phone_enquiry.val());
+          //   if(name_enquiry.val()=='' && name_enquiry.val() == null)
+          //   {
+          //   	 $('#enquiry_form_submit').attr('disabled',true);
+          //   }
+          //    else if(subject_enquiry.val()=='' && subject_enquiry.val()==null)
+          //    {
+          //    	 $('#enquiry_form_submit').attr('disabled',true);
+          //    }
+          //    else if(location_enquiry.val()=='' && location_enquiry.val() == null)
+          //    {
+          //    	 $('#enquiry_form_submit').attr('disabled',true);
+          //    }
+          //    else if(phone_enquiry.val()=='' && phone_enquiry.val()==null)
+          //    {
+          //    	$('#enquiry_form_submit').attr('disabled',true);
+          //    }
+          //    else
+          //    {
+
+          //     $('#enquiry_form_submit').attr('disabled',false);
+       		 // }
+       		 if (name_enquiry.val()=='' && subject_enquiry.val()=='' &&  location_enquiry.val()=='' && phone_enquiry.val()=='') 
+       		 {
+       		 	console.log(8);
+       		 	$('#enquiry_form_submit').attr('disabled','disabled');
+       		 }
+       		 else
+       		 {
+       		 	$('#enquiry_form_submit').removeAttr('disabled');
+       		 }
+		});
+
+		$(".name-enquiry").keyup(function() 
+		{
+			var enquiry_name=$(this).val();
+			var icon=$(this).next();
+		    if (enquiry_name.match('^[a-zA-Z ]{3,16}$')) 
+		    {
+		    	icon.removeClass("glyphicon-remove");
+		      	icon.addClass("glyphicon-ok").css("color","green");
+		    } 
+		    else 
+		    {
+
+		    	icon.removeClass("glyphicon-ok");
+		    	icon.addClass("glyphicon-remove").css("color","red");
+		         
+		    }
+		});
+		$(".subject-enquiry").keyup(function() 
+		{
+			var enquiry_name=$(this).val();
+			var icon=$(this).next();
+		    if (enquiry_name.match('^[a-zA-Z ]{3,16}$')) 
+		    {
+		    	icon.removeClass("glyphicon-remove");
+		      	icon.addClass("glyphicon-ok").css("color","green");
+		    } 
+		    else 
+		    {
+
+		    	icon.removeClass("glyphicon-ok");
+		    	icon.addClass("glyphicon-remove").css("color","red");
+		         
+		    }
+		});
+		$(".location-enquiry").keyup(function() 
+		{
+			var enquiry_name=$(this).val();
+			var icon=$(this).next();
+		    if (enquiry_name.match('^[a-zA-Z ]{3,16}$')) 
+		    {
+		    	icon.removeClass("glyphicon-remove");
+		      	icon.addClass("glyphicon-ok").css("color","green");
+		    } 
+		    else 
+		    {
+
+		    	icon.removeClass("glyphicon-ok");
+		    	icon.addClass("glyphicon-remove").css("color","red");
+		         
+		    }
+		});
+
+
+
+		$('.phone-enquiry').keyup(function(e) 
+		{ 
+			
+			var keyCode=e.which;
+			var phone_number=$(this).val();
+			var icon=$(this).next();
+			console.log(phone_number.length);
+			
+
+			if((e.keyCode>=48 && e.keyCode<=57)|| (e.keyCode>=96 && e.keyCode <=105)||(e.keyCode==8)||(e.keyCode==46))
+			{
+					
+				if(phone_number.length==10)
+				{
+
+					icon.removeClass("glyphicon-remove").css("color","red");
+					icon.addClass("glyphicon-ok").css("color","green");
+				}
+				else
+				{
+					icon.removeClass("glyphicon-ok").css("color","green");
+					icon.addClass("glyphicon-remove").css("color","red");
+				}
+
+			}
+			else
+			{
+				icon.removeClass("glyphicon-ok").css("color","green");
+				icon.addClass("glyphicon-remove").css("color","red");
+			}
+
+		}).keydown(function(event) 
+		{
+			// var phone_number=$(this).val();
+			// var icon=$(this).next();
+			// const key = event.key; // const {key} = event; ES6+
+   //  		if (key === "Backspace" || key === "Delete") 
+   //  		{
+   //    		   if(phone_number.length==10)
+			// 	{
+
+			// 		icon.removeClass("glyphicon-remove").css("color","red");
+			// 		icon.addClass("glyphicon-ok").css("color","green");
+			// 	}
+			// 	else
+			// 	{
+			// 		icon.removeClass("glyphicon-ok").css("color","green");
+			// 		icon.addClass("glyphicon-remove").css("color","red");
+			// 	}
+
+   //  		}
+		});
+
+
 	});
 
 

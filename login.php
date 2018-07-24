@@ -15,7 +15,7 @@ if($_SERVER["REQUEST_METHOD"]=="POST")
 	{
 			
 
-		 $sql= "select * from test where email='$email'";
+		 $sql= "select * from clone where email='$email'";
 		 
 		 
 		  $result=mysqli_query($conn,$sql);

@@ -2,7 +2,7 @@
 $servername="localhost";
 $username="root";
 $password="";
-$database="testing";
+$database="practice";
 
 $conn=mysqli_connect($servername,$username,$password,$database);
 
@@ -14,7 +14,7 @@ if(!$conn)
 }
 
 
-$sql="CREATE TABLE IF NOT EXISTS test
+$sql="CREATE TABLE IF NOT EXISTS clone
 	(id INT(6) NOT NULL PRIMARY KEY AUTO_INCREMENT,
 
      name VARCHAR(30),

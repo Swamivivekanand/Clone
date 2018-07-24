@@ -9,10 +9,10 @@
                     
                  </div>
                 <div class="modal-body text-left get_info_content">
-                    <div class="get_info_intro">
+                    <div class="get_info_intro hidden active">
                         <h3>We will ask a few questions to connect you with the right Tutors</h3>
                     </div>
-                    <div class="get_info_student_1" style="display: none;">
+                    <div class="get_info_student_1 hidden">
                         <div class="get_info_header">
                             <h3>Where do you want to take tuition?</h3>
                         </div>
@@ -31,7 +31,7 @@
                             </li>
                         </ul>   
                     </div>
-                    <div class="get_info_student_2" style="display: none;">
+                    <div class="get_info_student_2 hidden" >
                        <div class="get_info_header">
                            <h3>Which class is the student in?</h3>
                        </div>
@@ -111,7 +111,7 @@
                             </ul> 
                         </div>  
                     </div>
-                    <div class="get_info_student_3" style="display: none;">
+                    <div class="get_info_student_3 hidden">
                        <div class="get_info_header">
                            <h3>Which board is the school affiliated to?</h3>
                        </div>
@@ -143,7 +143,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="get_info_student_4" style="display: none;">
+                    <div class="get_info_student_4 hidden">
                        <div class="get_info_header">
                            <h3>Which subject does the student need help with?</h3>
                        </div>
@@ -188,7 +188,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="get_info_student_5" style="display: none;">
+                    <div class="get_info_student_5 hidden">
                        <div class="get_info_header">
                            <h3>What time the student available to take the classes?</h3>
                        </div>
@@ -228,7 +228,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="get_info_student_6" style="display: none;">
+                    <div class="get_info_student_6 hidden">
                        <div class="get_info_header">
                            <h3>How often will the student(s) take classes?</h3>
                        </div>
@@ -249,7 +249,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="get_info_student_7" style="display: none;">
+                    <div class="get_info_student_7 hidden">
                        <div class="get_info_header">
                            <h3>What is your approximate monthly budget?</h3>
                        </div>
@@ -323,11 +323,10 @@
 
                 <div class="modal-footer">
                     <div class="get_info_btn">
-                        <button class="get_start_btn" onclick="get_info()">Get Started</button>
-
-                        <button class="back-modal  btn-primary" style="display: none;">Back</button>
-                        <button class="next-modal  btn-primary" style="display: none;">Next</button>
-
+                        <button class="get_start_btn" >Get Started</button>
+                        <button class="back-modal  btn-primary" >Back</button>
+                        <button class="next-modal  btn-primary" >Next</button>
+<!-- 
                         <button class="back-modal1 btn-primary" style="display: none;">Back</button>
                         <button class="next-modal1 btn-primary" style="display: none;">Next</button>
 
@@ -350,7 +349,7 @@
                         <button class="next-modal7 btn-primary " style="display: none;">Next</button>
 
                         <button class="back-modal8 btn-primary" style="display: none;">Back</button>
-                        <a  href="filter.php" class="next-modal8 btn-primary" style="display: none;">Next</a>
+                        <a  href="filter.php" class="next-modal8 btn-primary" style="display: none;">Next</a> -->
 
                         
                     </div>
