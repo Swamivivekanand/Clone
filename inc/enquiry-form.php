@@ -1,34 +1,38 @@
 <div class="enquiry-form-content">
    		<div class="enquiry-form">
    			<div class="inner-body">
-   				<form action="services.php" >
+   				<!-- <form action="services.php" > -->
      				<h4>Enquiry Form</h4>
       				<div class="input--with-icon">
      					<i class="fa fa-user"></i>
       					<input type="text" placeholder="Name" class="name-enquiry" >
+                         <span class="form-control-feedback glyphicon "></span>
    					</div>
 
     
  						<div class="input--with-icon">
  	 						<i class="fa fa-book"></i>
  	  						<input type="text" placeholder="Subject" class="subject-enquiry" >
+                            <span class="form-control-feedback glyphicon "></span>
  						</div>
 
  						<div class="input--with-icon">
     						<i class="fa fa-location-arrow"></i>
      						<input type="text" placeholder="Location" class="location-enquiry" >
+                            <span class="form-control-feedback glyphicon "></span>
   					    </div>
     
  
  						<div class="input--with-icon">
   							<i class="fa fa-phone"></i>
    							<input type="text" placeholder="Contact Number" class="phone-enquiry">
+                            <span class="form-control-feedback glyphicon "></span>
  						</div>
  						<!-- <button type="submit" class="btn">Get Free Demo</button> -->
-                        <div class="enquiry-submit ">
+                        <div class="enquiry-submit">
                             <input type="submit" name="" value="Get Free Demo" id="enquiry_form_submit">
                         </div>
- 					</form>
+ 					<!-- </form> -->
  					<div class="enquiry-form-close">
  						<i class="fa fa-times"></i>
  						
@@ -36,7 +40,7 @@
  				</div>
    			</div>
 		</div>
-       <script src="jquery-3.3.1.min.js">
+      <!--  <script src="jquery-3.3.1.min.js">
             $(".enquiry-submit").click(function () 
        {
             
@@ -68,4 +72,4 @@
               $('#enquiry_form_submit').attr('disabled',false);
              }
         });
-       </script>
+       </script> -->
