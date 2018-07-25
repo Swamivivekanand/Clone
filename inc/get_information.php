@@ -193,7 +193,7 @@
                            <h3>What time the student available to take the classes?</h3>
                        </div>
                        <div style="overflow-y: auto; height:345px;"> 
-                            <ul style="list-style-type: none;">
+                            <ul style="list-style-type:none;">
                                 <li>
                                     <label class="custom_radio_btn">Morning (8 AM to 12 PM)
                                         <input type="radio" checked="checked" name="radio">
