@@ -6,10 +6,9 @@
                         <span aria-hidden="true">×</span>
                         <span class="sr-only">Close</span>
                     </button>
-                    
-                 </div>
+                </div>
                 <div class="modal-body text-left get_info_content">
-                    <div class="get_info_intro hidden active">
+                    <div class="get_info_intro   hidden active" >
                         <h3>We will ask a few questions to connect you with the right Tutors</h3>
                     </div>
                     <div class="get_info_student_1 hidden">
@@ -19,9 +18,10 @@
                         <ul>
                             <li>
                                 <label class="custom_radio_btn">At my house
-                                    <input type="radio" checked="checked" name="radio">
+                                    <input type="radio" checked="checked"  name="radio">
                                     <span class="checkmark"></span>
                                 </label>
+
                             </li>
                             <li>
                                 <label class="custom_radio_btn">At tuition center
@@ -29,9 +29,10 @@
                                     <span class="checkmark"></span>
                                 </label>
                             </li>
-                        </ul>   
+                        </ul>
+                          
                     </div>
-                    <div class="get_info_student_2 hidden" >
+                    <div class="get_info_student_2 hidden">
                        <div class="get_info_header">
                            <h3>Which class is the student in?</h3>
                        </div>
@@ -109,9 +110,10 @@
                                     </label>
                                 </li>
                             </ul> 
-                        </div>  
+                        </div> 
+                         
                     </div>
-                    <div class="get_info_student_3 hidden">
+                    <div class="get_info_student_3 hidden" >
                        <div class="get_info_header">
                            <h3>Which board is the school affiliated to?</h3>
                        </div>
@@ -142,6 +144,7 @@
                                 </li>
                             </ul>
                         </div>
+                        
                     </div>
                     <div class="get_info_student_4 hidden">
                        <div class="get_info_header">
@@ -187,13 +190,14 @@
                                 </li>
                             </ul>
                         </div>
+                        
                     </div>
                     <div class="get_info_student_5 hidden">
                        <div class="get_info_header">
                            <h3>What time the student available to take the classes?</h3>
                        </div>
                        <div style="overflow-y: auto; height:345px;"> 
-                            <ul style="list-style-type:none;">
+                            <ul style="list-style-type: none;">
                                 <li>
                                     <label class="custom_radio_btn">Morning (8 AM to 12 PM)
                                         <input type="radio" checked="checked" name="radio">
@@ -227,6 +231,7 @@
                                 
                             </ul>
                         </div>
+                        
                     </div>
                     <div class="get_info_student_6 hidden">
                        <div class="get_info_header">
@@ -248,6 +253,7 @@
                                 </li>
                             </ul>
                         </div>
+                        
                     </div>
                     <div class="get_info_student_7 hidden">
                        <div class="get_info_header">
@@ -275,8 +281,9 @@
                                 </li>
                             </ul>
                         </div>
+                        
                     </div>
-                    <div class="get_info_student_8" style="display: none;">
+                    <div class="get_info_student_8 hidden" >
                        <div class="get_info_header">
                            <h3>How soon would you like to hire?</h3>
                        </div>
@@ -302,31 +309,35 @@
                                 </li>
                             </ul>
                         </div>
+                        
                     </div>
-                    <div class="get_info_student_9" style="display: none;">
+                    <div class="get_info_student_9 hidden" >
                        <div class="get_info_header">
                            <h3>Location where you require the service:</h3>
                        </div>
                        <div> 
                         <input type="text" name="" placeholder="Enter Location" style="width: 100%">
                        </div>
+                       
                    </div>
-                   <div class="get_info_tutor" style="display: none;">
+                   <div class="get_info_tutor hidden">
                         <div class="get_info_header">
                             <h3>Please tell us about yourself :</h3>
                         </div>
                         <textarea placeholder="Please tell us what all Class/Subjects you teach, your education background, experience and fees for your services"></textarea>
                     </div>
-
-
                 </div>
 
                 <div class="modal-footer">
                     <div class="get_info_btn">
-                        <button class="get_start_btn" >Get Started</button>
-                        <button class="back-modal  btn-primary" >Back</button>
-                        <button class="next-modal  btn-primary" >Next</button>
-<!-- 
+                        <button class="get_start_btn">Get Started</button>
+                        <button class="pre_btn hidden">Previous</button>
+                        <button class="modal-submit hidden" type="submit">Submit</button>
+                         
+
+                       <!--  <button class="back-modal  btn-primary" style="display: none;">Back</button>
+                        <button class="next-modal  btn-primary" style="display: none;">Next</button>
+
                         <button class="back-modal1 btn-primary" style="display: none;">Back</button>
                         <button class="next-modal1 btn-primary" style="display: none;">Next</button>
 
