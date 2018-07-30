@@ -203,6 +203,12 @@ section.search
 	font-size: 20px;
 	font-family: arimo-regular;
 }
+section.home_footer
+{
+	background:#efeff0;
+	
+
+}
 /*GET INFORMATION MODAL*/
 .get_info_content
 {
@@ -883,7 +889,7 @@ width: 100%;
 
 input[type=submit] 
 {
-	background-color: #4CAF50;
+	background-color: #117deb;
 	color: white;
 		padding: 12px 20px;
 		border: none;
@@ -892,7 +898,8 @@ input[type=submit]
 }
 
 input[type=submit]:hover {
-		background-color: #45a049;
+		background-color:#80b4e8;
+		color: black;
 }
 section .container-form 
 {
@@ -1300,11 +1307,35 @@ div.register-layout
 			opacity: 0.9;
 			margin-top: 10px;
 	}
-
-	.btn:hover {
-			opacity: 1;
+		.modal_form_btn 
+		{
+			background-color: #117deb;
+		    color: white;
+		    padding: 12px 20px;
+		    border: none;
+		    border-radius: 4px;
+		    cursor: pointer;
+		    margin: 15px auto 0 auto;
 	}
-	
+	.modal_form_btn:hover 
+	{
+		background-color:#80b4e8;
+		color: black;
+	}
+
+	.btn:hover 
+	{
+		opacity: 1;
+	}
+	.hidden
+{
+	display:none;
+}
+.active
+{
+	display: block!important;
+}
+
 
 
 

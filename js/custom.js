@@ -417,7 +417,39 @@ $(document).ready(function($)
 	// 	$(".next-modal8").show();
 	// });
 
-	$()
+	var state=1;
+	$(".get_start_btn").click(function(e)
+	{
+		var this_ele=$(this).parent().parent().parent().find(".modal-body .active");
+		var next_ele=$(this_ele).next();
+		this_ele.removeClass("active");
+		 next_ele.addClass("active");
+		 state++;
+		 if(state==11)
+		 {
+		 	$(this).addClass("hidden");
+		 	$(".modal-submit").addClass("active");
+		 }
+		 if(state==2)
+		 {
+		 	$(this).text('Next');
+		 	$(".pre_btn").addClass("active");
+		 }
+	});
+	 $(".pre_btn").click(function(e)
+	{
+		var this_ele=$(this).parent().parent().parent().find(".modal-body .active");
+		var prev_ele=$(this_ele).prev();
+		console.log(state);
+		state--;
+		 this_ele.removeClass("active");
+		 prev_ele.addClass("active");
+		 if (state==1) 
+		 {
+		 	$(".get_start_btn").text("Get Started");
+		 	$(this).removeClass("active");
+		 }
+	});
 	// $('.form-name').keypress(function(e)
 
 	// {

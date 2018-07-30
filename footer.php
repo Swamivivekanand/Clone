@@ -37,8 +37,8 @@
 								  	<input type="text" name="email" id="email" required><br><br>
 					  
 
-								 	<input type="submit" value="Register" id="register">
-								 	<button type="button" class="btn modal_close_btn btn-right" data-dismiss="modal">
+								 	<input type="submit" value="Submit" id="register">
+								 	<button type="button" class="modal_form_btn modal_close_btn btn-right" data-dismiss="modal">
 									Close
 								</button>
 							   </form>

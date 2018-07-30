@@ -222,6 +222,26 @@
    		</div>
    	</div>
    </div>
+   <footer>
+      <section class="home_footer">
+         <div class="container">
+            <div class="col-md-4">
+               <i class="fa fa-location-arrow"></i>
+               <span>#184, Hennur Cross, Near Indian Academy College,<br> Off Ring Road, Bengaluru-560043 Karnataka, India.</span>
+            </div>
+            <div class="col-md-4">
+               <i class="fa fa-phone"></i>
+               <span>080-41722223,9741264243,9731663600</span>
+            </div>
+            <div class="col-md-4">
+               <i class="fa fa-envelope"></i>
+               <span>svj.kendra@gmail.com</span>
+               <span>write2svjk@svjnanakendra.com</span>
+            </div>
+
+         </div>
+      </section>
+   </footer>
    <?php  include_once 'inc/enquiry-form.php'; ?>
    <?php include_once "inc/get_information.php" ?>	
 
